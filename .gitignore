@@ -1,4 +1,4 @@
-# Created by .ignore support plugin (hsz.mobi)
+# Created by .iHardDriveDataStatsgnore support plugin (hsz.mobi)
 ### Linux template
 *~
 
@@ -343,3 +343,4 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+data/*
