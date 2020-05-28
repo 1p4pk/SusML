@@ -1,6 +1,10 @@
-version "3.8"
-services:
+version: '3.8'
+services: 
+
     susml:
-        image: susml
+        image: susml:latest
+        container_name: susml
+        tty: true
+        stdin_open: true
         volumes:
-            - .:home/ubuntu/SusML
+            - .:/home/ubuntu/SusML
