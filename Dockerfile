@@ -32,10 +32,6 @@ RUN conda update -n base -c defaults conda \
     && conda update anaconda \
     && conda update --all
 
-# CREATE CONDA VENV
-#RUN conda create -y --name venv \
-#    && activate venv
-
 #INSTALL OPEN MPI
 RUN conda install -y -c \
     conda-forge\

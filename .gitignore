@@ -1,4 +1,6 @@
 hostfile
+.vscode/
+.vscode-server/
 # Created by .iHardDriveDataStatsgnore support plugin (hsz.mobi)
 ### Linux template
 *~
