@@ -5,6 +5,7 @@ RUN apt-get update && apt-get install -y\
     sudo \
     curl \
     git \
+    net-tools \
     && rm -rf /var/lib/apt/lists/*
 
 # Add user ubuntu with no password, add to sudo group
@@ -51,7 +52,8 @@ RUN conda install -y \
     setuptools \
     cmake \
     cffi \
-    typing
+    typing \
+    mpi4py
     
 RUN conda install -y -c \
     pytorch \

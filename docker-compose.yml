@@ -6,5 +6,6 @@ services:
         container_name: susml
         tty: true
         stdin_open: true
+        network_mode: host
         volumes:
             - .:/home/ubuntu/SusML
