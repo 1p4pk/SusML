@@ -1,5 +1,7 @@
 .vscode/
 .vscode-server/
+eval/*
+!eval/.keep
 # Created by .iHardDriveDataStatsgnore support plugin (hsz.mobi)
 ### Linux template
 *~
