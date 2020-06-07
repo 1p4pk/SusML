@@ -1,7 +1,9 @@
 .vscode/
 .vscode-server/
-eval/*
-!eval/.keep
+benchmark_process/*
+!benchmark_process/.keep
+benchmark_model/*
+!benchmark_model/.keep
 # Created by .iHardDriveDataStatsgnore support plugin (hsz.mobi)
 ### Linux template
 *~
