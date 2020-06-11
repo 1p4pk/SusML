@@ -1,0 +1,11 @@
+version: '3.8'
+services: 
+
+    susml:
+        image: susml:latest
+        container_name: susml
+        tty: true
+        stdin_open: true
+        network_mode: host
+        volumes:
+            - .:/home/ubuntu/SusML

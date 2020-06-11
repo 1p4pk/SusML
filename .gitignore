@@ -1,4 +1,9 @@
-hostfile
+.vscode/
+.vscode-server/
+benchmark_process/*
+!benchmark_process/.keep
+benchmark_model/*
+!benchmark_model/.keep
 # Created by .iHardDriveDataStatsgnore support plugin (hsz.mobi)
 ### Linux template
 *~
@@ -345,3 +350,4 @@ Temporary Items
 .apdisk
 
 data/*
+models/*
