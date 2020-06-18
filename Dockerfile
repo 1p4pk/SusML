@@ -6,6 +6,7 @@ RUN apt-get update && apt-get install -y\
     curl \
     git \
     net-tools \
+    build-essential \
     && rm -rf /var/lib/apt/lists/*
 
 # Add user ubuntu with no password, add to sudo group
@@ -38,7 +39,6 @@ RUN conda install -y -c \
     conda-forge\
     openmpi
 
-#CMAKE_PREFIX_PATH="$(dirname $(which conda))/../"
 ENV CMAKE_PREFIX_PATH ${CONDA_PATH}/../
 
 #INSTALL PACKAGES IN CONDA VENV
