@@ -1,2 +1,2 @@
-raspberrypi.local slots=1
-raminpi.local slots=1
+pi01.local slots=1
+pi02.local slots=1
