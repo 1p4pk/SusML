@@ -16,7 +16,7 @@ mpirun -n 2 --hostfile  hostfile hostname
 If both hostnames are displayed, the actual training can be started:
 
 ```console
-mpirun -n 2 --hostfile hostfile python3 src/malware_prediction/main.py
+mpirun -n 2 python -m src.malware_prediction.train.main_model <NUM_ROW_TRAIN> <OPTIMIZER> <LOSS_FUNCTION>
 ```
 
 ## Developement
